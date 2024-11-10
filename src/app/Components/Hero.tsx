@@ -1,5 +1,5 @@
-import React from 'react'
-import { FaCode ,FaPaintBrush ,FaMobile } from "react-icons/fa";
+import React from "react"
+
 const Hero = () => {
   return (
     <div className="home-page">

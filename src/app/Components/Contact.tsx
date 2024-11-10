@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react"
 
 const Contact = () => {
   return (
-    <div className='bg-gray-900'>
+    <div className="bg-gray-900">
       <div className="contact-page">
   <section className="contact py-20">
     <div className="container mx-auto text-center">

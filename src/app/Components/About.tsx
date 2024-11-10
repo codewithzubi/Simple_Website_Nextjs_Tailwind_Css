@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -14,35 +15,33 @@ const About = () => {
 
           <div className="team grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="team-member bg-white p-6 rounded-lg shadow-md hover:bg-yellow-400 cursor-pointer transition ease-in-out delay-300">
-              <img
-                alt="Portrait of team member one"
-                className="w-24 h-24 rounded-full mx-auto mb-4"
-                height="150"
-                src="https://storage.googleapis.com/a1aa/image/oXfhAEyQe3mR40w66qgAI4IjNu84kPRIs79hoK9e1bffPz6dC.jpg"
-                width="150"
+              <Image
+                src="/pr-1.jpeg" // Path ko slash se start karna hoga
+                alt="Your Image Description"
+                width={500}
+                height={300}
               />
+
               <h3 className="text-xl font-bold mb-2">John Doe</h3>
               <p className="text-gray-600">Lead Developer</p>
             </div>
 
             <div className="team-member bg-white p-6 rounded-lg shadow-md hover:bg-yellow-400 cursor-pointer transition ease-in-out delay-300">
-              <img
-                alt="Portrait of team member one"
-                className="w-24 h-24 rounded-full mx-auto mb-4"
-                height="150"
-                src="https://storage.googleapis.com/a1aa/image/oXfhAEyQe3mR40w66qgAI4IjNu84kPRIs79hoK9e1bffPz6dC.jpg"
-                width="150"
+            <Image
+                src="/pr-2.jpeg" // Path ko slash se start karna hoga
+                alt="Your Image Description"
+                width={500}
+                height={300}
               />
               <h3 className="text-xl font-bold mb-2">John Doe</h3>
               <p className="text-gray-600">Lead Developer</p>
             </div>
             <div className="team-member bg-white p-6 rounded-lg shadow-md hover:bg-yellow-400 cursor-pointer transition ease-in-out delay-300">
-              <img
-                alt="Portrait of team member one"
-                className="w-24 h-24 rounded-full mx-auto mb-4"
-                height="150"
-                src="https://storage.googleapis.com/a1aa/image/oXfhAEyQe3mR40w66qgAI4IjNu84kPRIs79hoK9e1bffPz6dC.jpg"
-                width="150"
+            <Image
+                src="/pr-3.jpeg" // Path ko slash se start karna hoga
+                alt="Your Image Description"
+                width={500}
+                height={300}
               />
               <h3 className="text-xl font-bold mb-2">John Doe</h3>
               <p className="text-gray-600">Lead Developer</p>
