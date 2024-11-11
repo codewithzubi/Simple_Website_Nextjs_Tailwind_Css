@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="md:w-1/2 text-center md:text-left">
       <h2 className="text-3xl font-semibold mb-4">Well Come Our Website✨</h2>
       <p className="text-base text-gray-300">
-        Upgrade your skills with our premium courses. Enroll now and access exclusive content!
+        Upgrade your skills with our premium courses. Enroll now and access exclusive content.
       </p>
     </div>
 
