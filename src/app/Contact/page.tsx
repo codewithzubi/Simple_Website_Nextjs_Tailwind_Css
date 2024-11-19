@@ -39,7 +39,7 @@ const Contact = () => {
           ></textarea>
         </div>
         <button
-          className="bg-yellow-400 text-black px-4 py-2 rounded-full hover:bg-white transition nsition duration-700 ease-in-out"
+          className="bg-yellow-400 text-black px-4 py-2 rounded-full hover:bg-blue-700 transition"
           type="submit"
         >
           Send Message

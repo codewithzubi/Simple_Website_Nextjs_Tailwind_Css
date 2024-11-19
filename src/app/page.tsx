@@ -1,20 +1,20 @@
-import Nav from "./Components/Nav";
+// import Nav from "./Components/Nav";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 
 
 export default function Home() {
   return (
     <div>
-                <Nav />
+                {/* <Nav /> */}
                 <Hero />
                 <About/>
                 <Services/>
                 <Contact/>
-                <Footer/>
+                {/* <Footer/> */}
 
     </div>
   );
